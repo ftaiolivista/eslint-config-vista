@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vista",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Vista Tecnologies ESLint rules",
   "keywords": [
     "eslint",
