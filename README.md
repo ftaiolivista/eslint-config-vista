@@ -1,6 +1,14 @@
 # eslint-config-vista
 
+Vista Tecnologie SRL Javascript Styling rules
+
 ## Usage
+
+Install in project
+
+```
+yarn add --dev eslint-config-vista
+```
 
 Add package to dev deps of your project
 
@@ -10,10 +18,10 @@ Es package.json:
 
 
 ```
-    "prettier": "eslint-config-vista/prettier.json",
-    "eslintConfig": {
-        "extends": ["vista"]
-    }
+"prettier": "eslint-config-vista/prettier.json",
+"eslintConfig": {
+    "extends": ["vista"]
+}
 ```
 
 ## LunarVim
@@ -27,8 +35,8 @@ npm add --location=global prettier-eslint-cli
 Then alter LunarVim configuration as follow
 
 ```
-vim.opt.shiftwidth = 4 -- the number of spaces inserted for each indentation
-vim.opt.tabstop = 4 -- insert 2 spaces for a tab
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
 
 local h = require("null-ls.helpers")
 local cmd_resolver = require("null-ls.helpers.command_resolver")
@@ -98,13 +106,3 @@ linters.setup {
 
 ```
 
-## Activate on project
-
-Add to package.json (or in any other eslint/prettier supported way)
-
-```
-    "prettier": "eslint-config-vista/prettier.json",
-    "eslintConfig": {
-        "extends": ["vista"]
-    }
-```
