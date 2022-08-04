@@ -97,3 +97,14 @@ linters.setup {
 }
 
 ```
+
+## Activate on project
+
+Add to package.json (or in any other eslint/prettier supported way)
+
+```
+    "prettier": "eslint-config-vista/prettier.json",
+    "eslintConfig": {
+        "extends": ["vista"]
+    }
+```
